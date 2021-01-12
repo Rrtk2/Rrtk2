@@ -47,4 +47,4 @@
 
 [linkedin]: https://www.linkedin.com/in/rick-reijnders-41779494/
 [orcid]: https://orcid.org/0000-0001-7599-0385
-[mail]: ra.reijnders@maastrichtuniversity.nl
+[mail]: mailto:ra.reijnders@maastrichtuniversity.nl
