@@ -8,7 +8,7 @@
 - 🔭 I'm looking into multi-omics integration and machine learning
 - 🌱 I’m currently learning aboud advanced integration techniques and latent representation✨
 - 👯 I’m looking to collaborate with other researchers
-- 🥅 2020 Goals: Dive into the world of working together to get science published!💪
+- 🥅 2021 Goals: Dive into the world of working together to get science published!💪
 - ⚡ Fun fact: I named my girlfriend's cat after a beer!
 
 <!--
