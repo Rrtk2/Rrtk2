@@ -38,12 +38,6 @@
 
 ---
 
-<details>
-  <summary>:zap: GitHub Stats</summary>
-
-  <img align="left" alt="Rrtk2's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=Rrtk2&show_icons=true&hide_border=true" />
-
-</details>
 
 [linkedin]: https://www.linkedin.com/in/rick-reijnders-41779494/
 [orcid]: https://orcid.org/0000-0001-7599-0385
