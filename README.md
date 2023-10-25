@@ -6,10 +6,9 @@
 ## I'm a Researcher, Developer, Maker and Motorcycle guy!!
 
 - 🔭 I'm looking into multi-omics integration and machine learning
-- 🌱 I’m currently learning aboud advanced integration techniques and latent representation✨
+- 🌱 I’m currently learning about advanced integration techniques and latent representation✨
 - 👯 I’m looking to collaborate with other researchers
 - 🥅 Goals: Dive into the world of working together to get science published!💪
-- ⚡ Fun fact: I named my girlfriend's cat after a beer!
 
 <!--
 ### Spotify Playing 🎧
