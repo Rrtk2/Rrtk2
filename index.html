@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager (if you use it, update your ID accordingly) -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Rick A. Reijnders, PhD | Data Scientist & Computational Methodologist</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics (update if needed)-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXX-X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXXXX-X');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rick A. Reijnders, PhD | Data Scientist & Computational Methodologist" />
+  <meta property="og:description" content="Data Scientist and Computational Methodologist with extensive experience in machine learning, multi-omics integration, and AI-driven statistical modeling." />
+  <meta property="og:url" content="https://yourdomain.example/" />
+  <meta property="og:site_name" content="Rick A. Reijnders, PhD" />
+  <meta property="article:publisher" content="https://yourdomain.example/" />
+  <meta property="og:image" content="https://yourdomain.example/assets/img/profile-rick.jpg" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@your_twitter" />
+  <meta name="twitter:title" content="Rick A. Reijnders, PhD | Data Scientist & Computational Methodologist" />
+  <meta name="twitter:description" content="Data Scientist and Computational Methodologist with extensive expertise in AI-driven statistical modeling." />
+  <meta name="twitter:url" content="https://twitter.com/your_twitter" />
+  <meta name="author" content="Rick A. Reijnders, PhD" />
+  <meta name="description" content="Data Scientist and Computational Methodologist specializing in machine learning, multi-omics integration, and robust AI-driven methodologies." />
+  <!-- Favicon and Apple Icons (update paths if needed) -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="your-google-site-verification-code" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+  <!-- Navigation Menu -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+           class="brand-logo grey-blue-text">
+          <img src="/assets/img/profile-rick.jpg" class="circle img-responsive profile-pic" alt="Rick A. Reijnders Profile Picture">
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Resume" href="/assets/resume/Rick_Reijnders_CV.pdf" target="_blank" class="waves-effect waves-dark teal-text">
+          <i class="mdi-file-folder-open small"></i><span>Resume</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse">
+      <i class="mdi-navigation-menu"></i>
+    </a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Rick A. Reijnders, PhD</a>
+      <span class="black-text">Data Scientist & Computational Methodologist</span>
+    </div>
+  </nav>
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Resume" href="/assets/resume/Rick_Reijnders_CV.pdf" target="_blank" class="waves-effect waves-dark teal-text">
+          <i class="mdi-file-folder-open small"></i><span>Resume</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Intro Section -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Rick A. Reijnders, PhD.</span></h2>
+              <h5 style="color:#fff">Data Scientist | Computational Methodologist | AI Researcher</h5>
+              <h5>Dedicated to leveraging AI-driven techniques for robust data integration, predictive modeling, and innovative research solutions.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/rickreijnders" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/rickreijnders" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          I am a Data Scientist and Computational Methodologist with a PhD in machine learning, multi-omics integration, and AI-driven statistical modeling.
+          With extensive experience in big data processing, predictive modeling, and workflow automation, I focus on developing robust and scalable AI-driven methodologies for data integration and decision-making.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Postdoctoral Researcher -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.maastrichtuniversity.nl/" target="_blank">
+                  <img alt="Maastricht University logo" src="/assets/img/maastricht_university_logo.png" class="responsive-img center-block" />
+                </a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.maastrichtuniversity.nl/" target="_blank" class="teal-text hoverline">
+                      Postdoctoral Researcher – AI in Lewy Body Disease
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Maastricht University, Department of Psychiatry & Neuropsychology</div>
+            <ul>
+              <li>Developed unsupervised learning methods for Lewy body disease subtyping using spectral, hierarchical, and PAM clustering.</li>
+              <li>Applied sparse Partial Least Squares Discriminant Analysis (s-PLS-DA) to distinguish molecular LBD subtypes.</li>
+              <li>Engineered multi-trait Polygenic Risk Scores using LDAK and GWAS summary statistics.</li>
+              <li>Identified candidate therapeutics through gene signature-based drug matching (LINCS1000, CMAP).</li>
+              <li>Implemented scalable machine learning pipelines on HPC clusters for large-scale multi-omics analysis.</li>
+              <li>Developed integrated methylome-wide and transcriptomic workflows with advanced normalization and pre-processing.</li>
+              <li>Optimized performance using C to accelerate feature selection, clustering, and data transformation in R and Python.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2024 – Present | Maastricht, Netherlands</span>
+          </div>
+        </div>
+
+        <!-- PhD Researcher -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.maastrichtuniversity.nl/" target="_blank">
+                  <img alt="Maastricht University logo" src="/assets/img/maastricht_university_logo.png" class="responsive-img center-block" />
+                </a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.maastrichtuniversity.nl/" target="_blank" class="teal-text hoverline">
+                      PhD Researcher – Machine Learning in PTSD
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Maastricht University, Department of Psychiatry & Neuropsychology</div>
+            <ul>
+              <li>Developed predictive models using random forests, gradient boosting, SVM, and deep learning for biomedical data.</li>
+              <li>Applied Bayesian inference, LASSO regression, and AI-driven feature selection to uncover disease patterns.</li>
+              <li>Designed scalable data pipelines for preprocessing and integrating multi-source datasets.</li>
+              <li>Utilized text mining and transformer-based models to enhance automated literature synthesis.</li>
+              <li>Built multi-omics models to predict clinical outcomes in PTSD and Parkinson’s disease.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2020 – 2024 | Maastricht, Netherlands</span>
+          </div>
+        </div>
+
+        <!-- Freelancer -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.rrworks.com/" target="_blank">
+                  <img alt="RRworks logo" src="/assets/img/rrworks_logo.png" class="responsive-img center-block" />
+                </a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.rrworks.com/" target="_blank" class="teal-text hoverline">
+                      Freelancer – Data Science & Workflow Automation
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">RRworks – IT & Technical Services</div>
+            <ul>
+              <li>Designed automated AI-driven workflows for diverse data science and research projects.</li>
+              <li>Developed standalone AI tools for rule-based decision-making, optimizing industrial and economic processes.</li>
+              <li>Built scalable databases and machine learning models for comprehensive data analysis.</li>
+              <li>Provided consulting on integrating advanced analytics into strategic decision-making.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2017 – 2022 | Various Locations</span>
+          </div>
+        </div>
+
+        <!-- Research Experience (Optional) -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.maastrichtuniversity.nl/" target="_blank">
+                  <img alt="Maastricht University logo" src="/assets/img/maastricht_university_logo.png" class="responsive-img center-block" />
+                </a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.maastrichtuniversity.nl/" target="_blank" class="teal-text hoverline">
+                      Research – Genetic Regulation & Stress
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Maastricht University, Department of Bioinformatics (BiGCaT)</div>
+            <ul>
+              <li>Investigated the effects of chronic social defeat stress on DNA methylation, miRNA regulation, and gene expression.</li>
+              <li>Integrated multi-omics data (methylation, miRNA, RNA-seq) to identify biomarkers for PTSD susceptibility.</li>
+              <li>Developed and optimized bioinformatics workflows in R for high-throughput sequencing data analysis.</li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2017 – 2018 | Maastricht, Netherlands</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- Antibacterial Polyoxometalates -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Antibacterial Polyoxometalates" src="/assets/img/polyoxometalates.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Antibacterial Polyoxometalates<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Evaluated antibacterial properties through MIC/MBC assays and cell culture experiments.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Performed aseptic cell culturing, migration assays, transfection, and differentiation in MRC-5 cells.</li>
+                  <li>Developed a Linux-based bioinformatics pipeline to analyze Oxford Nanopore sequencing data.</li>
+                  <li>Optimized DNA extraction protocols to enhance sequencing accuracy.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fluorescent Magnetic Beads -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Fluorescent Magnetic Beads" src="/assets/img/magnetic_beads.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Fluorescent Magnetic Beads<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Designed and synthesized beads for multiplex assays using Quantum Dot technology.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title brown-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Conducted spectral analysis to optimize fluorescence properties.</li>
+                  <li>Developed a rapid fungal DNA extraction method using magnetic bead-based technology.</li>
+                  <li>Validated extraction efficiency through Real-Time PCR and gel electrophoresis.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages, Databases, and Tools -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Technical Skills</h4>
+            <ul>
+              <li><b>AI & Machine Learning:</b> Feature selection, predictive modeling, clustering, dimensionality reduction</li>
+              <li><b>Big Data & Statistical Analysis:</b> Time-series forecasting, regression, multivariate statistics</li>
+              <li><b>Programming & Automation:</b> R (8+ years, expert), Python, C, Linux (Bash scripting), SQL</li>
+              <li><b>Data Processing & Integration:</b> Multi-omics, text, image, economic data</li>
+              <li><b>Methodology Development:</b> AI-driven statistical techniques for robust data integration and predictive modeling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- PhD -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.maastrichtuniversity.nl/" target="_blank" class="teal-text hoverline">
+                      PhD, Systems Biology & AI-Driven Data Integration
+                    </a>
+                  </span>
+                </p>
+                <p class="brown-text">Maastricht University, Department of Psychiatry & Neuropsychology</p>
+                <p>
+                  <b>Duration:</b> 2020 – 2024<br>
+                  <b>Thesis:</b> "From pieces to picture: systems biology, multi-omics and machine learning in complex brain disorders"
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- MSc -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.maastrichtuniversity.nl/" target="_blank" class="teal-text hoverline">
+                      MSc, Systems Biology
+                    </a>
+                  </span>
+                </p>
+                <p class="brown-text">Maastricht University, School for Mental Health and Neuroscience (MHeNs)</p>
+                <p>
+                  <b>Duration:</b> 2018 – 2020<br>
+                  Specialized in computational modeling and big data analysis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- BSc -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">
+                    <a href="https://www.zuyd.nl/" target="_blank" class="teal-text hoverline">
+                      BSc, Biomedical Sciences
+                    </a>
+                  </span>
+                </p>
+                <p class="brown-text">Zuyd Hogeschool, Heerlen</p>
+                <p>
+                  <b>Duration:</b> 2014 – 2018<br>
+                  Focused on analytical methods, computational analysis, and statistical modeling.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- MBO -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title">
+                    <a href="#" class="teal-text hoverline">
+                      MBO, Laboratory Technology – Biotechnology
+                    </a>
+                  </span>
+                </p>
+                <p class="brown-text">Leeuwenborgh, Sittard</p>
+                <p>
+                  <b>Duration:</b> 2010 – 2014<br>
+                  Gained hands-on experience in data quality control, experimental design, and molecular analysis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Rick" data-position="top" data-tooltip="Call Rick" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-phone"></i>
+            <span class="hoverline">+31 (6) 20 52 52 13</span>
+          </a>
+        </p>
+        <p>
+          <a aria-label="Email Rick" href="mailto:Rick.Reijnders.RA@gmail.com" target="_blank" data-position="top" data-tooltip="Email Rick" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-envelope"></i>
+            <span class="hoverline">Rick.Reijnders.RA@gmail.com</span>
+          </a>
+        </p>
+        <p>
+          <a aria-label="View Rick on GitHub" href="https://github.com/rickreijnders" target="_blank" data-position="top" data-tooltip="View Rick on GitHub" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-github"></i>
+            <span class="hoverline">github.com/rickreijnders</span>
+          </a>
+        </p>
+        <p>
+          <a aria-label="View Rick on LinkedIn" href="https://www.linkedin.com/in/rickreijnders" target="_blank" data-position="top" data-tooltip="View Rick on LinkedIn" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <i class="fa fa-linkedin"></i>
+            <span class="hoverline">linkedin.com/in/rickreijnders</span>
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js for animated text -->
+  <script src="/assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["Data Scientist", "Computational Methodologist", "AI Researcher"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Initialize Materialize components
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy();
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      });
+    });
+  </script>
+</body>
+
+</html>
