@@ -15,6 +15,10 @@
   border-radius: 50% !important;
 }
 
+.small-text {
+  font-size: 12px;
+}
+
 .profile-pic img {
   width: 100%;
   height: auto;
