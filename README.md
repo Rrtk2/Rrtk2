@@ -11,3 +11,5 @@
 - 🥅 Goals: Dive into the world of working together to get science published!💪
 
 Want to know more? Take a look at my [portfolio!](https://rrtk2.github.io/Rrtk2/)
+
+Also check out my R package [RRLab](https://github.com/Rrtk2/RRLab)
